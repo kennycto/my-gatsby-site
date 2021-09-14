@@ -6,12 +6,12 @@ const title = 'Home';
 const IndexPage = () => {
     return (
         <main>
-            <title>Home page</title>
             <Layout pageTitle={title}>
                 <p>I'm making this by following the Gatsby Tutorial.</p>
                 <StaticImage
                     alt='Naruto'
                     src='../images/naruto-anime-inspiration.jpg'
+                    placeholder='blurred'
                 />
             </Layout>
         </main>
